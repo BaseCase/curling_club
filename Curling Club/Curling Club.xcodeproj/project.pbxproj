@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		27EFCF202444C82E00575157 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EFCF1F2444C82E00575157 /* main.swift */; };
+		27EFCF282444CD1C00575157 /* libncurses.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 27EFCF272444CD0C00575157 /* libncurses.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		27EFCF1C2444C82E00575157 /* Curling Club */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Curling Club"; sourceTree = BUILT_PRODUCTS_DIR; };
 		27EFCF1F2444C82E00575157 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		27EFCF272444CD0C00575157 /* libncurses.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libncurses.tbd; path = usr/lib/libncurses.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27EFCF282444CD1C00575157 /* libncurses.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +46,7 @@
 			children = (
 				27EFCF1E2444C82E00575157 /* Curling Club */,
 				27EFCF1D2444C82E00575157 /* Products */,
+				27EFCF262444CD0C00575157 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +64,14 @@
 				27EFCF1F2444C82E00575157 /* main.swift */,
 			);
 			path = "Curling Club";
+			sourceTree = "<group>";
+		};
+		27EFCF262444CD0C00575157 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27EFCF272444CD0C00575157 /* libncurses.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
